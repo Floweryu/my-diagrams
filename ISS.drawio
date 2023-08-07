@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T11:53:59.960Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.6" etag="zp-dxXox235YIpa9a0tH" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-07T12:02:46.626Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="dvS7OTTCxiqFWyA0C4yG" version="21.6.6" type="github">
   <diagram name="第 1 页" id="C_dEds3PyqGrPJgCPyWY">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0FpNCt8ilsKiGTiIv5_l-14" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="120" width="520" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="0FpNCt8ilsKiGTiIv5_l-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0FpNCt8ilsKiGTiIv5_l-1" target="0FpNCt8ilsKiGTiIv5_l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FpNCt8ilsKiGTiIv5_l-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0FpNCt8ilsKiGTiIv5_l-1" target="0FpNCt8ilsKiGTiIv5_l-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FpNCt8ilsKiGTiIv5_l-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0FpNCt8ilsKiGTiIv5_l-1" target="0FpNCt8ilsKiGTiIv5_l-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FpNCt8ilsKiGTiIv5_l-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0FpNCt8ilsKiGTiIv5_l-1" target="0FpNCt8ilsKiGTiIv5_l-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FpNCt8ilsKiGTiIv5_l-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0FpNCt8ilsKiGTiIv5_l-1" target="0FpNCt8ilsKiGTiIv5_l-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0FpNCt8ilsKiGTiIv5_l-1" value="FDS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="160" y="295" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0FpNCt8ilsKiGTiIv5_l-2" value="多点并发上传/下载" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="450" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0FpNCt8ilsKiGTiIv5_l-5" value="简单易用、灵活扩容" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0FpNCt8ilsKiGTiIv5_l-6" value="数据找回/防止误删" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="450" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0FpNCt8ilsKiGTiIv5_l-7" value="CDN加速" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="450" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0FpNCt8ilsKiGTiIv5_l-8" value="支持认证授权" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="450" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
