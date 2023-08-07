@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2023-08-07T06:44:52.923Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="bMbGB9JiYV7wSTU6eksc" version="21.6.6" type="github">
+  <diagram name="第 1 页" id="3yuZ2Wid5mWI0Ptmrx9i">
+    <mxGraphModel dx="1290" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-2" value="" style="shape=actor;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+          <mxGeometry x="195" y="220" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-4" value="实验系统" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-8" value="配置中心" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="470" y="230" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-9" value="实验平台" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="660" y="240" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-18" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="320" as="sourcePoint" />
+            <mxPoint x="360" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-19" value="请求" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" connectable="0" vertex="1" parent="r1oIjOJ9KZLl9rMvdHuL-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-22" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="340" as="sourcePoint" />
+            <mxPoint x="530" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-23" value="拉取配置" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" connectable="0" vertex="1" parent="r1oIjOJ9KZLl9rMvdHuL-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-26" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="410" as="sourcePoint" />
+            <mxPoint x="710" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-27" value="请求实验平台" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" connectable="0" vertex="1" parent="r1oIjOJ9KZLl9rMvdHuL-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-36" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="460" as="sourcePoint" />
+            <mxPoint x="370" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="461" />
+              <mxPoint x="461" y="461" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-37" value="配置整合、过滤、兜底" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" connectable="0" vertex="1" parent="r1oIjOJ9KZLl9rMvdHuL-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-39" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="584" as="sourcePoint" />
+            <mxPoint x="220" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-40" value="返回结果" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" connectable="0" vertex="1" parent="r1oIjOJ9KZLl9rMvdHuL-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="210" y="290" width="10" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="360" y="290" width="10" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="530" y="290" width="10" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="r1oIjOJ9KZLl9rMvdHuL-44" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="710" y="290" width="10" height="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
