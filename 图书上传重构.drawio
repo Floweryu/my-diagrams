@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T16:00:11.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="hJ0vKLG4F3L-NXnWEq7M" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T16:00:18.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="k3bohbf5u4CdQZKlWa5j" version="21.6.8" type="github">
   <diagram name="第 1 页" id="BfoXBWILRWUiTi9KGCna">
     <mxGraphModel dx="2261" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,9 +41,6 @@
         </mxCell>
         <mxCell id="EOI0EI14CAxdlLVf6kwt-25" value="多线程并发处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="320" y="360" width="370" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EOI0EI14CAxdlLVf6kwt-30" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="558" width="70" height="100" as="geometry" />
         </mxCell>
         <mxCell id="EOI0EI14CAxdlLVf6kwt-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qt_Jid6uIY3iX1TQbwFm-7" target="EOI0EI14CAxdlLVf6kwt-25">
           <mxGeometry relative="1" as="geometry" />
