@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T08:30:14.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.8" etag="wK8bFZSlHIqJHBBBpHAa" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-19T08:32:27.156Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="dwGLPL-nwkaVp92_GjML" version="21.6.8" type="github">
   <diagram name="第 1 页" id="4d1e7NwRM0MrVL3205Sr">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CK6MHss7wGNNWX79YfE2-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CK6MHss7wGNNWX79YfE2-1" target="CK6MHss7wGNNWX79YfE2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CK6MHss7wGNNWX79YfE2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CK6MHss7wGNNWX79YfE2-1" target="CK6MHss7wGNNWX79YfE2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CK6MHss7wGNNWX79YfE2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CK6MHss7wGNNWX79YfE2-1" target="CK6MHss7wGNNWX79YfE2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CK6MHss7wGNNWX79YfE2-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;路由内存占用形式&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CK6MHss7wGNNWX79YfE2-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Nacos自身Cache&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CK6MHss7wGNNWX79YfE2-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;路由定义中间变量&lt;br&gt;占用内存&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CK6MHss7wGNNWX79YfE2-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;真实路由占用内存&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="160" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
