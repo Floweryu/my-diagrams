@@ -1,9 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2023-08-22T05:11:48.117Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.8" etag="jeenIr7_KBAGPowLw43F" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-22T05:25:42.452Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="PCtoIGVhAcfmq8KTyAus" version="21.6.8" type="github">
   <diagram name="第 1 页" id="xgRBW9jYFuQNeC2wXJYv">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="1799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-27" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="150" width="520" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-25" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-80" width="520" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-22" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="30" width="520" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ISS存储服务&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="140" y="380" width="520" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tv-jJkPy1Z6eXJQ7PN0g-2" target="Tv-jJkPy1Z6eXJQ7PN0g-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-2" value="图书资源" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tv-jJkPy1Z6eXJQ7PN0g-3" target="Tv-jJkPy1Z6eXJQ7PN0g-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-3" value="小说资源" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tv-jJkPy1Z6eXJQ7PN0g-4" target="Tv-jJkPy1Z6eXJQ7PN0g-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-4" value="听书资源" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tv-jJkPy1Z6eXJQ7PN0g-5" target="Tv-jJkPy1Z6eXJQ7PN0g-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-5" value="图书阅读" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tv-jJkPy1Z6eXJQ7PN0g-6" target="Tv-jJkPy1Z6eXJQ7PN0g-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-6" value="小说阅读" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Tv-jJkPy1Z6eXJQ7PN0g-7" target="Tv-jJkPy1Z6eXJQ7PN0g-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-7" value="听书阅读" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="190" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-9" value="图书购买" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="160" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-10" value="利润分配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-50" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-12" value="版权收入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-50" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-20" value="小说购买" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="340" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-21" value="听书购买" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="520" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;交易系统&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-24" value="广告收入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-50" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;结算系统&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="-80" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Tv-jJkPy1Z6eXJQ7PN0g-28" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;基础服务&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="150" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
