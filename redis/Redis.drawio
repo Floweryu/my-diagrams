@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-27T09:15:42.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="w56VkR8REQRaFvqFy429" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T12:57:40.747Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="lDFdu5EduPrEp9lWrHDe" version="22.1.4" type="github">
   <diagram name="第 1 页" id="M0oQc9svi-WAukvlGGDK">
-    <mxGraphModel dx="1050" dy="1030" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1450" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,6 +99,111 @@
         </mxCell>
         <mxCell id="ijzWPlS6REOOT8l7aKSs-30" value="响应" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="305" y="450" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-31" value="从节点" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-25" y="1010" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ijzWPlS6REOOT8l7aKSs-34" target="ijzWPlS6REOOT8l7aKSs-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ijzWPlS6REOOT8l7aKSs-34" target="ijzWPlS6REOOT8l7aKSs-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-34" value="主节点" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="135" y="1010" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-35" value="从节点" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1010" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-50" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ijzWPlS6REOOT8l7aKSs-36" target="ijzWPlS6REOOT8l7aKSs-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ijzWPlS6REOOT8l7aKSs-36" target="ijzWPlS6REOOT8l7aKSs-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-36" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;哨兵A&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-95" y="830" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-37" value="写同步" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="1018" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-38" value="写同步" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1018" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ijzWPlS6REOOT8l7aKSs-48" target="ijzWPlS6REOOT8l7aKSs-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-48" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;哨兵B&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="830" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ijzWPlS6REOOT8l7aKSs-49" target="ijzWPlS6REOOT8l7aKSs-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ijzWPlS6REOOT8l7aKSs-49" target="ijzWPlS6REOOT8l7aKSs-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-49" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;哨兵C&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="350" y="830" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-53" value="判定在线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="930" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-54" value="主观判定下线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="122.5" y="920" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-56" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;主观判定下线&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="930" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-58" value="认同下线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="858" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-60" value="不认同下线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="858" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-61" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;认为主节点&lt;b&gt;主观下线&lt;/b&gt;的有两个哨兵，所以判定主节点&lt;b&gt;客观下线&lt;/b&gt;&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="85" y="746" width="207" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ijzWPlS6REOOT8l7aKSs-63" target="ijzWPlS6REOOT8l7aKSs-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-63" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;从节点&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="1230" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ijzWPlS6REOOT8l7aKSs-64" target="ijzWPlS6REOOT8l7aKSs-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-64" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;从节点&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="1230" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ijzWPlS6REOOT8l7aKSs-65" target="ijzWPlS6REOOT8l7aKSs-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-65" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;从节点&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1230" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ijzWPlS6REOOT8l7aKSs-66" target="ijzWPlS6REOOT8l7aKSs-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-66" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;开始选举主节点&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="126.25" y="1350" width="112.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ijzWPlS6REOOT8l7aKSs-70" target="ijzWPlS6REOOT8l7aKSs-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-70" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;首先：过滤掉网络不稳定的节点&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="76.5" y="1450" width="212" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ijzWPlS6REOOT8l7aKSs-72" target="ijzWPlS6REOOT8l7aKSs-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-72" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;选取优先级高的从节点&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="106.5" y="1540" width="152" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-74" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;复制进度最大的从节点&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="92" y="1640" width="181" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ijzWPlS6REOOT8l7aKSs-76" value="ID号最大的从节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="123" y="1730" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
