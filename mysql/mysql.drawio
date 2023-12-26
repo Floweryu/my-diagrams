@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2023-12-26T02:54:26.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3m06UVZ6KrvjMZ_2IRdP" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-26T03:05:57.592Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="1EF0ZvdXE3rl2oUTOXHL" version="22.1.11" type="github">
   <diagram name="第 1 页" id="gNZCSh1aHm1mI09cRFBn">
     <mxGraphModel dx="1050" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="5440" width="650" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-55" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="350.5" y="5550" width="340" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-54" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="350" y="5675" width="340" height="145" as="geometry" />
+        </mxCell>
         <mxCell id="1VGFijXc4w3Q4zfdq1KR-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="93" y="5011" width="570" height="333" as="geometry" />
         </mxCell>
@@ -838,17 +847,17 @@
         <mxCell id="1VGFijXc4w3Q4zfdq1KR-25" value="&lt;b&gt;bin log 刷盘&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="91.5" y="5011" width="85" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="1VGFijXc4w3Q4zfdq1KR-27" value="事务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="160" y="5480" width="80" height="300" as="geometry" />
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-27" value="事务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="160" y="5480" width="80" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="1VGFijXc4w3Q4zfdq1KR-28" value="Mysql Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="320" y="5480" width="81" height="300" as="geometry" />
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-28" value="Mysql Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="5480" width="81" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="1VGFijXc4w3Q4zfdq1KR-29" value="binlog" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="480" y="5480" width="81" height="300" as="geometry" />
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-29" value="binlog" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="480" y="5480" width="81" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="1VGFijXc4w3Q4zfdq1KR-30" value="存储引擎" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="637" y="5480" width="81" height="300" as="geometry" />
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-30" value="存储引擎" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="637" y="5480" width="81" height="360" as="geometry" />
         </mxCell>
         <mxCell id="1VGFijXc4w3Q4zfdq1KR-33" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -861,17 +870,83 @@
             <mxPoint x="3" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1VGFijXc4w3Q4zfdq1KR-35" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" target="1VGFijXc4w3Q4zfdq1KR-30">
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-35" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="360" y="5600" as="sourcePoint" />
-            <mxPoint x="520" y="5600" as="targetPoint" />
+            <mxPoint x="360.25" y="5590" as="sourcePoint" />
+            <mxPoint x="677.25" y="5590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600.25" y="5590" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1VGFijXc4w3Q4zfdq1KR-36" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;startArrow=none;startFill=0;" edge="1" parent="1" source="1VGFijXc4w3Q4zfdq1KR-30">
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-36" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;startArrow=none;startFill=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="427" y="5650" as="sourcePoint" />
-            <mxPoint x="358.5" y="5650" as="targetPoint" />
+            <mxPoint x="677.5" y="5627.5" as="sourcePoint" />
+            <mxPoint x="359" y="5627.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-37" value="&lt;b&gt;写入 redo log&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="452" y="5560" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-38" value="&lt;b&gt;ok&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="487" y="5601.25" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-39" value="&lt;b&gt;准备阶段&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="5560" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-40" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="358.5" y="5720" as="sourcePoint" />
+            <mxPoint x="518.5" y="5720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-41" value="写入binlog" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="399" y="5690" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-42" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="518.5" y="5749" as="sourcePoint" />
+            <mxPoint x="359.5" y="5749" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-43" value="ok" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="419" y="5720" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-44" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="363" y="5780" as="sourcePoint" />
+            <mxPoint x="680" y="5780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-46" value="提交事务，将redo log设置为已提交状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="5750" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-47" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="677" y="5810" as="sourcePoint" />
+            <mxPoint x="358.5" y="5810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="5810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-48" value="ok" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="476.5" y="5790" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-49" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="1VGFijXc4w3Q4zfdq1KR-28">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="339.5" y="5830" as="sourcePoint" />
+            <mxPoint x="199.5" y="5830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-51" value="ok" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="5808" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-52" value="&lt;b&gt;提交阶段&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="5670" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1VGFijXc4w3Q4zfdq1KR-57" value="&lt;b&gt;二阶段提交&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="5440" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
