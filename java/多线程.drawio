@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T07:39:12.285Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="EjBQ1kz_BaLPCVY1C9sT" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T09:18:54.650Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="cGo6CBQz440U2un3sUN5" version="22.1.17" type="github">
   <diagram name="第 1 页" id="AZ9xIIJotZ_00Vsyfa0N">
-    <mxGraphModel dx="875" dy="515" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="618" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-EQdU9CbAoRiwT4EUDCg-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="640" height="440" as="geometry" />
+        </mxCell>
         <mxCell id="-EQdU9CbAoRiwT4EUDCg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="-EQdU9CbAoRiwT4EUDCg-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="480" as="targetPoint" />
@@ -88,6 +91,9 @@
         </mxCell>
         <mxCell id="-EQdU9CbAoRiwT4EUDCg-21" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Sync内部重写tryReleaseShared()&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="355" y="410" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-EQdU9CbAoRiwT4EUDCg-23" value="&lt;b&gt;CountDownLatch原理&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="70" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
